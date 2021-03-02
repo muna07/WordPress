@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.promo {
+  min-height: 800px;
+  background: url("../img/main_bg.png") center center/cover no-repeat;
+}
+.promo .container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.promo .container .logo .logo_img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.promo .container .logo .logo_desc {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.promo .container .promo_description {
+  padding-top: 30px;
+}
+.promo .container .promo_description .title {
+  color: #F9BF3B;
+  font-size: 41px;
+  font-weight: 900;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.promo .container .promo_description .subtitle {
+  color: white;
+  font-size: 80px;
+  font-weight: 900px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.promo .container .promo_description h2.title {
+  margin-top: 20px;
+}
+.promo .container .promo_description .description {
+  color: white;
+  font-size: 21px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 21px;
+  margin-top: 20px;
+}
+.promo .container .promo_description .description span {
+  font-weight: 700;
+  color: #F9BF3B;
+}
+.promo .container button {
+  font-size: 21px;
+  font-weight: 400;
+  color: white;
+  padding: 22px 12px;
+  text-align: center;
+  background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+  cursor: pointer;
+  display: block;
+  margin: 60px auto;
+}
+.promo .container .promo_foot-logo .foot-logo_desc {
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+}
+.promo .container .promo_foot-logo .foot-logo_img {
+  display: block;
+  margin: 5px auto;
+}
+
+.intensive {
+  min-height: 604px;
+  background-color: #efefef;
+}
+.intensive .container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.intensive .title {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 80px;
+}
+.intensive .orange_line {
+  background-color: orange;
+  width: 220px;
+  height: 5px;
+  margin: 18px auto;
+}
+.intensive .subtitle {
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 18px;
+}
+.intensive .wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.intensive .wrapper .item .description {
+  color: #4A4A4A;
+  width: 342px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.after-study {
+  min-height: 450px;
+  background: url("../img/second_bg.png") center center/cover no-repeat;
+}
+.after-study .container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.after-study .title {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 70px;
+}
+.after-study .orange_line {
+  width: 220px;
+  height: 5px;
+  background-color: orange;
+  margin: 20px auto;
+}
+.after-study .wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.after-study .wrapper .item .icon {
+  width: 120px;
+  height: 120px;
+  background-color: #B4E2FF;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.after-study .wrapper .item .desc {
+  color: #efefef;
+  font-size: 17px;
+  font-weight: 300;
+  width: 206px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.price {
+  min-height: 630px;
+  background-color: #efefef;
+}
+.price .container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.price .logo_price {
+  display: block;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+.price .price_desc {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+.price button {
+  color: #ffff;
+  font-size: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 22px 12px;
+  background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+  cursor: pointer;
+  display: block;
+  margin: 50px auto;
+}
+
+.webinar {
+  min-height: 450px;
+  background-color: white;
+}
+.webinar .container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.webinar .webinar_logo {
+  padding-top: 80px;
+  display: block;
+  margin: 0 auto;
+}
+.webinar .desc {
+  margin: 40px 0;
+}
+.webinar .desc .text_normal {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+.webinar .desc .text_bold {
+  font-size: 36px;
+  font-weight: 900;
+  color: #299CBD;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
+.webinar .desc .text_lign {
+  font-size: 23px;
+  font-weight: 400;
+  color: #a4a4a4;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 25px;
+}
+
+footer {
+  min-height: 170px;
+  background-color: black;
+  padding: 61px 0 69px 0;
+}
+footer .container {
+  width: 1140px;
+  margin: 0 auto;
+}
+footer .info_links {
+  text-align: center;
+  padding-top: 50px;
+}
+footer .info_links a {
+  font-size: 15px;
+  font-weight: 300;
+  color: #888888;
+}
+footer .info_links a:hover {
+  color: white;
+  text-decoration: none;
+}
+footer .info_links span {
+  color: #888888;
+}
+footer .tel {
+  text-align: center;
+  margin-top: 10px;
+}
+footer .tel a {
+  color: #888888;
+}
+footer .tel a:hover {
+  color: white;
+  text-decoration: none;
+}
+footer .tel span {
+  color: #888888;
+}
