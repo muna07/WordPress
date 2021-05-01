@@ -1,11 +1,11 @@
 @charset "UTF-8";
-/* line 6, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 1, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 
-/* line 11, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 6, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .button {
   width: 213px;
   height: 52px;
@@ -18,37 +18,37 @@
   margin: 50px auto;
 }
 
-/* line 21, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 16, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .button:hover {
   background: none;
   background-color: #299CBD;
   cursor: pointer;
 }
 
-/* line 27, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 22, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .button:focus {
   outline: #ffffff 3px solid;
 }
 
-/* line 32, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 27, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .button-section__fourth:focus {
   outline: #299CBD 3px solid;
 }
 
-/* line 38, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 33, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__first {
   min-height: 600px;
   background: url("../img/bg/main_bg.png") center center/cover no-repeat;
   padding: 40px 0 60px 0;
 }
 
-/* line 45, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 40, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__first_header .logo img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 51, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 46, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__first_header .logo_info {
   color: #ffffff;
   font-size: 15px;
@@ -58,7 +58,7 @@
   margin-top: 10px;
 }
 
-/* line 61, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 56, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__first_title {
   color: #F9BF3B;
   font-size: 41px;
@@ -67,7 +67,7 @@
   text-align: center;
 }
 
-/* line 69, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 64, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__first_easy {
   color: #ffffff;
   font-weight: 900;
@@ -76,7 +76,7 @@
   text-align: center;
 }
 
-/* line 76, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 71, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__first_easy::before {
   content: '';
   width: 290px;
@@ -87,7 +87,7 @@
   margin-left: 20px;
 }
 
-/* line 86, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 81, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__first_easy::after {
   content: '';
   width: 290px;
@@ -98,7 +98,7 @@
   margin-right: 20px;
 }
 
-/* line 97, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 92, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__first_desc {
   font-size: 21px;
   font-weight: 300;
@@ -108,14 +108,14 @@
   margin: 20px auto;
 }
 
-/* line 104, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 99, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__first_desc span {
   color: #F9BF3B;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-/* line 112, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 107, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__first_footer .logo_desc {
   font-weight: 200;
   font-size: 15px;
@@ -124,13 +124,13 @@
   color: #ffffff;
 }
 
-/* line 121, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 116, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__first_footer .logo img {
   display: block;
   margin: 5px auto;
 }
 
-/* line 129, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 124, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__title {
   font-weight: 400;
   font-size: 30px;
@@ -138,7 +138,7 @@
   text-align: center;
 }
 
-/* line 136, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 131, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__line {
   width: 220px;
   height: 7px;
@@ -146,7 +146,7 @@
   margin: 20px auto;
 }
 
-/* line 143, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 138, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__subtitle {
   font-weight: 400;
   font-size: 23px;
@@ -155,14 +155,14 @@
   margin-top: 20px;
 }
 
-/* line 151, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 146, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__second {
   min-height: 400;
   background-color: #efefef;
   padding: 50px 0 60px 0;
 }
 
-/* line 156, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 151, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__second_waiting-wrapper {
   display: flex;
   justify-content: space-between;
@@ -170,12 +170,12 @@
   margin-top: 50px;
 }
 
-/* line 164, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 159, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__second_item img {
   width: 100%;
 }
 
-/* line 168, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 163, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__second_item .desc {
   font-size: 15px;
   font-weight: 300;
@@ -185,19 +185,19 @@
   line-height: 130%;
 }
 
-/* line 179, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 174, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__third {
   min-height: 300px;
   background: url("../img/bg/second_bg.png") center center/cover no-repeat;
   padding: 60px 0 70px 0;
 }
 
-/* line 184, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 179, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__third .section__title {
   color: #ffffff;
 }
 
-/* line 188, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 183, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__third_finish-wrapper {
   display: flex;
   justify-content: space-between;
@@ -205,7 +205,7 @@
   margin-top: 30px;
 }
 
-/* line 194, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 189, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__third_finish-wrapper .icon {
   width: 100px;
   height: 100px;
@@ -217,7 +217,7 @@
   margin: 0 auto;
 }
 
-/* line 205, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 200, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__third_finish-wrapper .desc {
   font-weight: 300;
   font-size: 17px;
@@ -227,20 +227,20 @@
   margin-top: 20px;
 }
 
-/* line 216, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 211, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__fourth {
   min-height: 400px;
   background-color: #efefef;
   padding: 60px 0 80px 0;
 }
 
-/* line 222, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 217, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__fourth_price img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 228, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 223, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__fourth_desc {
   font-weight: 400;
   font-size: 30px;
@@ -250,19 +250,19 @@
   margin: 20px auto;
 }
 
-/* line 238, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 233, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__webinar {
   min-height: 400px;
   padding: 70px 0 50px 0;
 }
 
-/* line 243, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 238, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__webinar-img img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 249, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 244, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__webinar-info {
   font-weight: 400;
   font-size: 30px;
@@ -271,7 +271,7 @@
   margin: 30px auto;
 }
 
-/* line 257, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 252, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__webinar-time {
   font-weight: 900;
   font-size: 36px;
@@ -281,7 +281,7 @@
   color: #299CBD;
 }
 
-/* line 266, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 261, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__webinar-desc {
   font-weight: 400;
   font-size: 23px;
@@ -290,14 +290,14 @@
   margin: 30px auto;
 }
 
-/* line 275, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 270, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__footer {
   background-color: #000;
   min-height: 100px;
   padding: 50px 0 50px 0;
 }
 
-/* line 280, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 275, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__footer .link {
   font-weight: 300;
   font-size: 15px;
@@ -305,13 +305,13 @@
   text-align: center;
 }
 
-/* line 285, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 280, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__footer .link a {
   color: #888888;
   transition: 0.5s all;
 }
 
-/* line 289, ../../../OneDrive/Рабочий стол/git/WordPress/scss/style.scss */
+/* line 284, ../../../OneDrive/Рабочий стол/git/WordPress/scss/_general.scss */
 .section__footer .link a:hover {
   color: #ffffff;
   text-decoration: none;
